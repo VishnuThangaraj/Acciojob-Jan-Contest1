@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Acciojob Jan Contest1</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Berlin</h1>
+      <p>The City of history and charm !</p>
+
+      <!-- Navigation Menu -->
+      <nav id="main_navigation_bar">
+        <ul>
+          <li><a href="#description">Description </a> |</li>
+          <li><a href="#attraction">Attractions</a> |</li>
+          <li><a href="#statistics">Statistics</a> |</li>
+          <li><a href="#feedback">Feedback</a> |</li>
+          <li><a href="#quotes">Quotes</a> |</li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+    <main>
+      <!-- City Description -->
+      <section id="description">
+        <h2>Discover Berlin</h2>
+        <img
+          src="https://r4.wallpaperflare.com/wallpaper/259/113/256/berlin-cityscape-sky-urban-area-wallpaper-b886cdd89090fc98d03c217eb892640a.jpg"
+          height="300px"
+          width="500"
+          alt="Berlin City View"
+          title="Berlin City Top View"
+        />
+
+        <p>
+          Berlin is a trendsetting city when it comes to music, art and life
+          itself. More and more artists are flocking to Berlin from all around
+          the world to draw inspiration from the endless creative vibes, making
+          it one of the most exciting destinations in the whole of Europe.
+        </p>
+      </section>
+      <hr />
+
+      <!-- City Attractions -->
+      <section id="attraction">
+        <h2>Attractions</h2>
+        <div id="main_attractions">
+        <h3>Main Attractions</h3>
+        <ol id="popular_places">
+          <li>Gardens of the Wood</li>
+          <li>Volkspark Friedrichshain</li>
+          <li>Viktoria Park</li>
+        </ol></div>
+
+        <div id="local_places"><h3>Local Favourites</h3>
+        <ul id="local_faviourites">
+          <li>Spandau Citadel</li>
+          <li>Aquarium Berlin</li>
+          <li>
+            Berlin museum
+            <ul>
+              <li>German Spy Museum</li>
+              <li>Altes Museum</li>
+              <li>Computer Games Museum</li>
+            </ul>
+          </li>
+        </ul></div>
+      </section>
+      <hr />
+
+      <!-- City Statistics -->
+      <section id="statistics">
+        <h2>City Statistics</h2>
+
+        <table id="statistics_table">
+          <thead>
+            <th>Attribute</th>
+            <th>Value</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Population</td>
+              <td>3.6 Million</td>
+            </tr>
+            <tr>
+              <td>Landmarks</td>
+              <td>22</td>
+            </tr>
+            <tr>
+              <td>Parks</td>
+              <td>11</td>
+            </tr>
+            <tr>
+              <td>Schools</td>
+              <td>34</td>
+            </tr>
+            <tr>
+              <td>Museums</td>
+              <td>5</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <hr />
+
+      <!-- Feedback Form -->
+      <section id="feedback">
+        <h2>Feedback</h2>
+        <form id="feedback_form" method="post">
+          <div id="form_contact_details">
+            <label for="userName">Name : </label>
+            <input
+              id="userName"
+              type="text"
+              name="userName"
+              placeholder="Enter Your Name here"
+              required
+            />
+            &nbsp;&nbsp;
+
+            <label for="emailId">Email : </label>
+            <input
+              id="emailId"
+              name="emailId"
+              type="email"
+              placeholder="Enter Your Email ID"
+              required
+            />
+          </div>
+
+          <div id="form_age">
+            <label for="age">Age : </label>
+            <input
+              id="age"
+              name="age"
+              type="number"
+              min="12"
+              placeholder="Above 12 years Old"
+              required
+            />
+          </div>
+
+          <div id="form_attractions">
+            <label for="fav_attractions">Favourite Attractions : </label>
+            <select name="fav_attractions" id="fav_attractions">
+              <option value="GermanSpyMuseum">German Spy Museum</option>
+              <option value="ComputerGamesMuseum">Computer Games Museum</option>
+              <option value="AltesMuseum">Altes Museum</option>
+            </select>
+          </div>
+
+          <div id="form_comment">
+            <label for="comment">Comments : </label>
+            <textarea name="comment" id="comment" rows="3"></textarea>
+          </div>
+
+          <div id="form_newsLetter">
+            <label for="newsletter">Newsletter : </label>
+            <input
+              type="checkbox"
+              id="newsletter"
+              name="newsletter"
+              placeholder=""
+            />
+            <label for="newsletter">Subscribe to our Newsletters </label>
+          </div>
+
+          <input type="submit" />
+        </form>
+      </section>
+      <hr />
+
+      <!-- Quotes from Citizens -->
+      <section id="quotes">
+        <h2>What Citizens Say</h2>
+        <blockquote id="quote1">
+          "Berlin, the greatest cultural extravaganza that one could imagine." -
+          VishnuThangaraj
+        </blockquote>
+        <blockquote id="quote2">
+          "Berlin is like being abroad in Germany. It’s German, but not
+          provincial."" - Swetha
+        </blockquote>
+      </section>
+      <hr />
+
+      <!-- Contact Details -->
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p><i>Visit us at : 100,Ocean Rectaal, Berlin</p>
+        <p>
+          Email :
+          <a href="mailto:info@berlintours.com">info@berlintours.com</a>
+        </p>
+        <p>Mobile : +49 9876543210  | +49 9876543210</p></i>
+      </section>
+    </main> <hr>
+
+    <!-- Footer -->
+    <footer id="footer_main">
+      <p>&copy; 2024 Berlin City. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

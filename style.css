@@ -1,0 +1,58 @@
+header {
+  text-align: center;
+}
+
+#main_navigation_bar > ul > li {
+  display: inline;
+}
+
+main {
+  text-align: center;
+  align-items: center;
+}
+
+#description > p {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#popular_places,
+#local_faviourites {
+  display: inline-block;
+  text-align: left;
+}
+
+#statistics_table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#statistics_table,
+tr,
+td,
+th {
+  border: 2px solid black;
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+div {
+  padding-bottom: 10px;
+}
+
+#feedback_form {
+  text-align: left;
+  padding-right: 30%;
+  padding-left: 30%;
+}
+
+footer {
+  padding-left: 3%;
+}
+
+#main_attractions,
+#local_places {
+  width: 49%;
+  display: inline-block;
+}
